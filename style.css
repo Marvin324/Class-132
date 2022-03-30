@@ -1,0 +1,34 @@
+body
+{
+    background-size: cover;
+}
+
+.heading
+{
+    width: 100%;
+    color: white;
+    background-color: lightblue;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.options
+{
+    color: black;
+    background-color: turquoise;
+    border-radius: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 20px;
+    margin-top: 50px;
+    opacity: 0.6;
+}
+
+.options:hover {background-color: turquoise; opacity: 1;}
+
+.options:active {
+  background-color: turquoise;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  opacity: 2;
+}

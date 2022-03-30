@@ -1,0 +1,108 @@
+body
+{
+   background-image: url('https://dbdzm869oupei.cloudfront.net/img/vinylrugs/preview/60786.png');
+   background-size: cover;
+}
+
+.obj_dect
+{
+    width: 100%;
+    color: white;
+    background-color: lightblue;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.btn_back 
+{
+    display: inline-block;
+    border-radius: 4px;
+    background-color: royalblue;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 5px;
+    width: 150px;
+    height: 50px;
+    transition: all 0.5s;
+    cursor: pointer;
+    text-align: center;
+    padding-bottom: 50px;
+    margin: 5px;
+    margin-left: 1300px;
+  }
+  
+  .btn_back span 
+  {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .btn_back span:after 
+  {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .btn_back:hover span 
+  {
+    padding-right: 25px;
+  }
+  
+  .btn_back:hover span:after 
+  {
+    opacity: 1;
+    right: 0;
+  }
+
+  #status
+  {
+    font-size: large;
+    color: white;
+    border-radius: 5px;
+    background-color: red;
+    font-family: cursive;
+    padding: 10px;
+    opacity: 1;
+  }
+
+  #status:hover
+  {
+    opacity: 0.7;
+    transition: 0.4s;
+  }
+
+  .description
+  {
+      font-size: large;
+      color: white;
+      border-radius: 5px;
+      background-color: lightgreen;
+      box-shadow : 5px 5px 18px darkgreen;
+      font-family: cursive;
+      margin-top: 20px;
+      padding: 10px;
+      opacity: 1;
+  }
+
+  .description:hover
+  {
+    opacity: 0.7;
+    transition: 0.4s;
+  }
+
+  canvas
+{
+    box-shadow: 10px 10px 10px grey;
+    border-radius: 10px;
+    border-style: dashed;
+    border-color: black;
+    margin-top: 150px;
+}
